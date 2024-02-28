@@ -22,8 +22,9 @@ $resultado = $conexion->query($vehiculosparqueados);
 $vehiculos=$resultado->fetch_all(MYSQLI_ASSOC);
 ?>
 
+<h3 style="padding-let:2rem;">Vehiculos Parqueados</h3>
 <div class="contenedor-listado-parqueados">
- <h3>Vehiculos Parqueados</h3>
+ 
     <table class="tabla">
         <thead>
             <tr>
@@ -46,7 +47,7 @@ $vehiculos=$resultado->fetch_all(MYSQLI_ASSOC);
                     echo"<td>". $vehiculo["tipoVehiculo"] ."</td>";
 
                     echo"<td>". $vehiculo["placa"] ."</td>";
-Ñ
+
                     echo"<td>". $vehiculo["fechaHoraIngreso"] ."</td>";
                     echo"</tr>";
                 }

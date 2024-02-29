@@ -2,7 +2,7 @@
 $nombrepagina = "Nuevo Ingreso";
 include 'plantilla.php';
 include 'header.php';
-include 'conexionbasededatos.php';
+include 'conexionbasedatos.php';
 
 // verificar si se a enviado el formulario
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

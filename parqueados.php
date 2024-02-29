@@ -35,7 +35,7 @@ $vehiculos=$resultado->fetch_all(MYSQLI_ASSOC);
         <?php
             if(!empty($vehiculos)) {
                 foreach($vehiculos as $vehiculo) {
-                    echo"<tr>";
+                    echo "<tr>";
                     echo "<td>";
                     if ($vehiculo["tipoVehiculo"]== "carro") {
                         echo "<i class='fa-solid fa-car'></i>";
@@ -44,9 +44,9 @@ $vehiculos=$resultado->fetch_all(MYSQLI_ASSOC);
                         }else {
                             echo "<i class='fa-solid fa-bullseye'></i>";
                         }
-                    echo"<td>". $vehiculo["tipoVehiculo"] ."</td>";
+                    echo $vehiculo["placa"] ."</td>";
 
-                    echo"<td>". $vehiculo["placa"] ."</td>";
+                    
 
                     echo"<td>". $vehiculo["fechaHoraIngreso"] ."</td>";
                     echo"</tr>";

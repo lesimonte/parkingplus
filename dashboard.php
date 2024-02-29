@@ -17,10 +17,10 @@ include 'header.php';
 
   <div class="boton">
     <a href="salidaVehiculo.php">
-    <div class="boton-menu">
-      <i class="fa-solid fa-angles-right"></i>
-    
-    </div>
+      <div class="boton-menu">
+        <i class="fa-solid fa-angles-right"></i>
+
+      </div>
     </a>
     <h3>Salida Vehiculos</h3>
   </div>
@@ -36,9 +36,11 @@ include 'header.php';
   </div>
 
   <div class="boton">
-    <div class="boton-menu">
-      <i class="fa-solid fa-chart-line"></i>
-    </div>
+    <a href="reporte.php">
+      <div class="boton-menu">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+    </a>
     <h3>Reporte Diario</h3>
   </div>
 </div>

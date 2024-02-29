@@ -10,7 +10,7 @@
   </a>
 
   <h3 style="color: white">
-    <?php echo $nombrePagina; ?>
+    <?php echo $nombrepagina; ?>
 
   </h3>
 </header>

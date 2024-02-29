@@ -1,26 +1,29 @@
-.contenedor-salida-vehiculo{
+.contenedor-salida-vehiculo {
     background-color: white;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     margin-top: 3rem;
     padding: 2rem;
     border-radius: 20px;
-
-}
-.buscador{
+  }
+  
+  .buscador {
     display: flex;
     flex-direction: column;
-
-    input {
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  
+      input {
         padding: 1rem;
         border-radius: 8px;
         outline: none;
         border: 1px solid var(--grisClaro);
-        text-transform: uppercase;
-
-    }
-    button{
-        background-color:  var(--azul);
+      }
+      button {
+        background-color: var(--azul);
         color: white;
         text-transform: uppercase;
         padding: 1rem;
@@ -28,35 +31,41 @@
         border-radius: 12px;
         margin-top: 15px;
         cursor: pointer;
+      }
     }
-}
-.informacion{
+  }
+  
+  .informacion {
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto auto;
-}
-.informacion> div{
+  }
+  
+  .informacion > div {
+    /*El simbolo > significa selector hijo*/
     padding-top: 15px;
-    padding-bottom:15px ;
-}
-
-.izquierda{
+    padding-bottom: 15px;
+  }
+  .izquierda {
     text-align: left;
-}
-.derecha{
+  }
+  .derecha {
     text-align: right;
-}
-.disenoplaca{
+    font-weight: bold;
+  }
+  .disenoPlaca {
     border: 1px solid #000;
     background-color: var(--amarillo);
     width: fit-content;
-    padding: 8px;
+    padding: 1rem;
     margin-left: auto;
-}
-.botones-acciones{
+  }
+  
+  .botones-acciones {
     display: flex;
-}
-.btnAccion{
+  }
+  
+  .btnAccion {
     padding: 1rem;
     width: 100%;
     margin: 1rem;
@@ -66,11 +75,12 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
-}
-.btnCobrar{
+  }
+  
+  .btnCobrar {
     background-color: var(--verde);
-
-}
-.btnCancelar{
+  }
+  
+  .btnCancelar {
     background-color: var(--rojoPrincipal);
-}
+  }
